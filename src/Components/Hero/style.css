@@ -1,0 +1,70 @@
+.hero{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20vh;
+  background: linear-gradient(117.29deg, #FBA8A8 -8.95%, rgba(189, 212, 231, 0) 99.59%, #DB9EA2 99.59%), #BDD4E7;
+  background-blend-mode: multiply, normal;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero h1{
+  max-width: 600px;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 127%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #F2F2F2;
+}
+
+.hero p{
+  margin-top: 32px;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 122%;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #F2F2F2;
+  }
+
+.buttons{
+  z-index: 9;
+  margin-top: 56px;
+  display: flex;
+  width: 17rem;
+  justify-content: space-between;
+}
+
+.img-hero{
+  height: 35vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url('./img/hero.png');
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 10%;
+
+}
+
+@media(max-width:1176px){
+  .img-hero{
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 10%;
+  }
+}

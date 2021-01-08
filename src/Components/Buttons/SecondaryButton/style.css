@@ -1,0 +1,16 @@
+.secondary-btn{
+  color: white;
+  text-decoration: none;
+  padding: 10px 22px;
+  border: 2px solid #3C64B1;
+  font-family: 'Mulish', sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+
+.secondary-btn:hover{
+  transition: .3s;
+  background-color: #345aa1;
+  color: white;
+}

@@ -1,0 +1,17 @@
+
+.primary-btn{
+  color: white;
+  text-decoration: none;
+  padding: 10px 24px;
+  background-color: #3C64B1;
+  font-family: 'Mulish', sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+
+.primary-btn:hover{
+  transition: .3s;
+  background-color: #345aa1;
+  color: white;
+}

@@ -1,0 +1,15 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+a{
+  text-decoration: none;
+  opacity: 0.9;
+}
+a:hover{
+  opacity: 1;
+}
