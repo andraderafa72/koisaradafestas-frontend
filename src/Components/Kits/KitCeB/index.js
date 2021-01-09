@@ -6,7 +6,7 @@ import Vasos from '../Icons/Vasos';
 export default class KitCeB extends React.Component {
   render() {
     return (
-      <div className=" col card">
+      <div className=" col card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
         <div className="card-body c-b">
           <div>
             <div className="icons">

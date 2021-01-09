@@ -5,14 +5,14 @@ import Mesas from '../Icons/Mesas';
 export default class KitCeB extends React.Component {
   render() {
     return (
-      <div className=" col card">
+      <div className=" col card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="50">
         <div className="card-body c-b">
           <div>
             <div className="icons">
               <Cilindros />
               <Mesas />
             </div>
-            <h1>Festa completa</h1>
+            <h1>Mesas e Cilindros</h1>
             <p>
               Mesas decorativas diversas e(ou) cilindros com capas personalizadas.
             </p>

@@ -8,7 +8,7 @@ import Painel from '../Icons/Painel';
 export default class KitFavorito extends React.Component {
   render() {
     return (
-      <div className=" col card">
+      <div className=" col card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">
         <div className="card-body c-b">
           <div>
             <div className="icons">
