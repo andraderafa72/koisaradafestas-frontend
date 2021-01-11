@@ -68,3 +68,30 @@
     background-position-y: 10%;
   }
 }
+
+@media(max-width:1400px){
+  .buttons{
+    margin-top: 35px
+  }
+}
+
+.color-change-2x {
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+}
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #BDD4E7;
+  }
+  100% {
+    background: #FBA8A8;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #BDD4E7;
+  }
+  100% {
+    background: #FBA8A8;
+  }
+}

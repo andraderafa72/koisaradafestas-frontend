@@ -1,0 +1,63 @@
+.custom-shape-divider-top-1610393699 {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1610393699 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 110px;
+}
+
+.custom-shape-divider-top-1610393699 .shape-fill {
+  fill: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1610393699 svg {
+      width: calc(180% + 1.3px);
+      height: 110px;
+  }
+}
+
+#ideal-for-you{
+  animation-duration: 8s infinite;
+  color: white;
+  border-bottom: 1px solid #BDD4E7;
+}
+.ideal-for-you{
+  background: linear-gradient(117.29deg, #FBA8A8 -8.95%, rgba(189, 212, 231, 0) 99.59%, #DB9EA2 99.59%), #BDD4E7;
+}
+
+h2.title-ify-bg{
+  opacity: 0.14;
+  line-height: 50%;
+  font-size: 8rem;
+}
+
+h1.title-ify{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 0%;
+  letter-spacing: -0.015em;
+  margin-bottom: 5rem;
+}
+
+.option a{
+  text-align: justify;
+}
+
+.option .secondary-btn{
+  border: 1px solid #18A0FB;
+  border-radius: 6px;
+  padding: 6px 30px;
+}
+
+.ify{
+  padding: 100px 0;
+}

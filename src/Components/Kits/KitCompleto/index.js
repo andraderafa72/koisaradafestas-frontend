@@ -21,7 +21,7 @@ export default class KitCeB extends React.Component {
             <h1>Festa completa</h1>
             <p>
               Painel redondo, artes personalizadas,
-              bandejas das cores do tema da festa, vasos de flores artificiais,
+              bandejas das cores do tema da festa, balões decorativos, vasos de flores artificiais,
               mesas decorativas e cilindros com capas personalizadas.
             </p>
           </div>

@@ -22,7 +22,7 @@ export default class KitFavorito extends React.Component {
             <h1>O mais pedido!</h1>
             <p>
               Painel redondo, artes personalizadas, bandejas das
-              cores do tema da festa, vasos de flores artificiais,
+              cores do tema da festa, balões decorativos, vasos de flores artificiais,
               mesas decorativas ou cilindros com capas personalizadas.
             </p>
           </div>

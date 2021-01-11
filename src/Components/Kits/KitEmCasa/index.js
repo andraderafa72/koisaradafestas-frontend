@@ -21,6 +21,7 @@ export default class KitEmCasa extends React.Component {
             <p>
               Mesas decorativas diversas e bandejas das cores
               do tema da festa e vasos com flores artificiais.
+              Também há a opção de escolher artigos individualmente. (Minimo de 6 itens).
             </p>
           </div>
           <a href="#" className="discover">Descobrir</a>
