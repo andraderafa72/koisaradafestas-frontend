@@ -1,6 +1,6 @@
 .kits{
   margin-top: 100vh;
-  height: 1000px;
+  margin-bottom: 150px;
   position: relative;
   background-color: #fff;
   font-family: 'Montserrat', sans-serif;
@@ -8,7 +8,7 @@
 
 .kits-bg{
   font-size: 10rem;
-  opacity: 0.23;
+  opacity: 0.27!important;
   padding-top: 30px;
   line-height: 30%;
   color: #d16767;
@@ -116,5 +116,13 @@
   .card img{
     width: 30px;
     height: 40px;
+  }
+}
+@media(max-width:500px){
+  .kits-bg{
+    font-size: 8rem;
+  }
+  .card{
+    min-width: 19rem;
   }
 }

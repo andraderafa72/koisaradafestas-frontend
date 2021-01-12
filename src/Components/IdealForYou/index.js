@@ -12,10 +12,10 @@ export default class IdealForYou extends React.Component {
           </svg>
         </div>
         <section className="container my-5 ify">
-          <h2 className="title-ify-bg">Ajuda?</h2>
+          <h2 data-aos="fade-left" data-aos-duration="500" className="title-ify-bg">Ajuda?</h2>
           <h1 className="title-ify">Qual o kit certo para você.</h1>
           <div className="row">
-            <div className="col option">
+            <div className="col option" data-aos="fade-up" data-aos-duration="600">
               <h4>Festa Completa?</h4>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur
@@ -25,7 +25,7 @@ export default class IdealForYou extends React.Component {
               </p>
               <SecondaryButton>Veja</SecondaryButton>
             </div>
-            <div className="col option">
+            <div className="col option" data-aos="fade-up" data-aos-duration="800">
               <h4>O mais pedido?</h4>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur
@@ -35,7 +35,7 @@ export default class IdealForYou extends React.Component {
               </p>
               <SecondaryButton>Veja</SecondaryButton>
             </div>
-            <div className="col option">
+            <div className="col option" data-aos="fade-up" data-aos-duration="1000">
               <h4>Festa em casa?</h4>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur

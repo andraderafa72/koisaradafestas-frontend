@@ -33,7 +33,7 @@
 }
 
 h2.title-ify-bg{
-  opacity: 0.14;
+  opacity: 0.18!important;
   line-height: 50%;
   font-size: 8rem;
 }
@@ -52,6 +52,9 @@ h1.title-ify{
   text-align: justify;
 }
 
+.option .secondary-btn:hover{
+  background-color: #18a0fb;
+}
 .option .secondary-btn{
   border: 1px solid #18A0FB;
   border-radius: 6px;
@@ -60,4 +63,21 @@ h1.title-ify{
 
 .ify{
   padding: 100px 0;
+}
+
+@media(max-width:500px){
+  h2.title-ify-bg{
+    font-size: 6rem;
+  }
+   h1.title-ify{
+     padding-left: 5px;
+     font-size: 1.5rem;
+   }
+
+  .option{
+    min-width: 90vw;
+    text-align: justify;
+  }
+
+
 }

@@ -4,12 +4,18 @@
   box-sizing: border-box;
   outline: 0;
 }
+main{
+  overflow-x: hidden;
+}
 html{
+  width: 100vw;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a{
   text-decoration: none;
+  cursor: pointer;
   opacity: 0.9;
 }
 a:hover{

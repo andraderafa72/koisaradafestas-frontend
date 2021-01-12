@@ -9,11 +9,15 @@ import './App.css';
 function App() {
   return (
     <>
-      <NavBar />
-      <Hero />
-      <Kits />
-      <IdealForYou />
-      <HelpArea />
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        <Hero />
+        <Kits />
+        <IdealForYou />
+        <HelpArea />
+      </main>
     </>
   );
 }

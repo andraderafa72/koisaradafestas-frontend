@@ -1,6 +1,6 @@
 .help-area{
   width: 100%;
-  background-color: #d1d1d1;
+  background-color: #f1f1f1;
 }
 
 .h-a{
@@ -9,5 +9,21 @@
   align-items: center;
   justify-content: center;
 }
+.h-a .primary-btn{
+  border-radius: 6px;
+}
 
 .h-a *{ margin: 0 10px}
+
+
+@media(max-width:500px){
+  .h-a{
+    flex-direction: column;
+  }
+  .h-a p{
+    font-size: .8rem;
+  }
+  .h-a a{
+    margin-top: 15px;
+  }
+}

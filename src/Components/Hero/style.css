@@ -1,4 +1,4 @@
-.hero{
+.hero {
   position: absolute;
   top: 0;
   left: 0;
@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.hero h1{
+.hero h1 {
   max-width: 600px;
   font-family: 'Mulish', sans-serif;
   font-style: normal;
@@ -26,7 +26,7 @@
   color: #F2F2F2;
 }
 
-.hero p{
+.hero p {
   margin-top: 32px;
   font-family: 'Mulish', sans-serif;
   font-style: normal;
@@ -36,9 +36,9 @@
   text-align: center;
   letter-spacing: 0.3px;
   color: #F2F2F2;
-  }
+}
 
-.buttons{
+.buttons {
   z-index: 9;
   margin-top: 56px;
   display: flex;
@@ -46,7 +46,7 @@
   justify-content: space-between;
 }
 
-.img-hero{
+.img-hero {
   height: 35vh;
   width: 100%;
   position: absolute;
@@ -61,36 +61,54 @@
 
 }
 
-@media(max-width:1176px){
-  .img-hero{
+
+
+@media(max-width:1400px) {
+  .buttons {
+    margin-top: 35px
+  }
+}
+
+@media(max-width:1176px) {
+  .img-hero {
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 10%;
   }
 }
 
-@media(max-width:1400px){
-  .buttons{
-    margin-top: 35px
+@media(max-width:500px) {
+  .hero h1{
+    font-size: 2rem;
+  }
+
+  .hero p{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
 .color-change-2x {
-	-webkit-animation: color-change-2x 2s linear infinite alternate both;
-	        animation: color-change-2x 2s linear infinite alternate both;
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
 }
+
 @-webkit-keyframes color-change-2x {
   0% {
     background: #BDD4E7;
   }
+
   100% {
     background: #FBA8A8;
   }
 }
+
 @keyframes color-change-2x {
   0% {
     background: #BDD4E7;
   }
+
   100% {
     background: #FBA8A8;
   }
