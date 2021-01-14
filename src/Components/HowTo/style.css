@@ -1,0 +1,73 @@
+.howto {
+  padding-top: 50px;
+  font-family: 'Mulish', sans-serif;
+}
+
+.howto h1,
+.howto h5 {
+  text-align: center;
+}
+
+.howto h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 137%;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #737B7D;
+  margin-bottom: 35px;
+}
+
+.howto h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.75rem;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
+
+.h-t img{
+  margin: 50px 0 15px;
+}
+
+h1.howto-h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #373F41;
+}
+p.howto-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: .75rem;
+  line-height: 143%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #373F41;
+  opacity: 0.8;
+}
+.h-t{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 170px;
+}
+
+@media(max-width:500px){
+  .howto .row .col{
+    min-width: 80vw;
+  }
+}
+
+@media (max-width: 767px) {
+   .h-t{
+    min-width: 80vw!important;
+    text-align: justify;
+  }
+}

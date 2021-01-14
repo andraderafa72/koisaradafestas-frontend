@@ -16,12 +16,7 @@
   fill: #FFFFFF;
 }
 
-@media (max-width: 767px) {
-  .custom-shape-divider-top-1610393699 svg {
-      width: calc(180% + 1.3px);
-      height: 110px;
-  }
-}
+
 
 #ideal-for-you{
   animation-duration: 8s infinite;
@@ -65,19 +60,32 @@ h1.title-ify{
   padding: 100px 0;
 }
 
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1610393699 svg {
+      width: calc(180% + 1.3px);
+      height: 110px;
+  }
+  h2.title-ify-bg{
+    font-size: 7rem;
+    padding-left: 5px;
+  }
+   h1.title-ify{
+     padding-left: 10px;
+     font-size: 2rem;
+   }
+
+   .option{
+    min-width: 80vw;
+    text-align: justify;
+  }
+
+}
+
 @media(max-width:500px){
   h2.title-ify-bg{
     font-size: 6rem;
   }
    h1.title-ify{
-     padding-left: 5px;
      font-size: 1.5rem;
    }
-
-  .option{
-    min-width: 90vw;
-    text-align: justify;
-  }
-
-
 }

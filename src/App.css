@@ -4,9 +4,7 @@
   box-sizing: border-box;
   outline: 0;
 }
-main{
-  overflow-x: hidden;
-}
+
 html{
   width: 100vw;
   scroll-behavior: smooth;

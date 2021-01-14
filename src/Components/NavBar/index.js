@@ -2,7 +2,7 @@ import React from 'react';
 import PrimaryButton from '../Buttons/PrimaryButton';
 import './style.css';
 
-export default class Hero extends React.Component {
+export default class NavBar extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">

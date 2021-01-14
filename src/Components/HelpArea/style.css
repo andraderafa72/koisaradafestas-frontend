@@ -1,6 +1,6 @@
 .help-area{
   width: 100%;
-  background-color: #f1f1f1;
+  background-color: #F0FBFF;
 }
 
 .h-a{
@@ -16,7 +16,7 @@
 .h-a *{ margin: 0 10px}
 
 
-@media(max-width:500px){
+@media(max-width:767px){
   .h-a{
     flex-direction: column;
   }
