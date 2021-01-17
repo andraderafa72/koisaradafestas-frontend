@@ -13,6 +13,7 @@ function App() {
     <>
       <header>
         <NavBar />
+
       </header>
       <main>
         <Hero />

@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 import icone from '../cilindros-icon.png';
 
 export default class Cilindros extends React.Component {

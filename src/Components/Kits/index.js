@@ -1,11 +1,8 @@
 import React from 'react';
 import './style.css';
-// import KitCeB from './KitCeB';
 import KitCompleto from './KitCompleto';
 import KitEmCasa from './KitEmCasa';
 import KitFavorito from './KitFavorito';
-// import KitMeB from './KitMeC';
-// import KitVeb from './KitVeB';
 
 export default class Kits extends React.Component {
   render() {
@@ -18,9 +15,6 @@ export default class Kits extends React.Component {
           <KitCompleto />
           <KitFavorito />
           <KitEmCasa />
-          {/* <KitCeB />
-          <KitMeB />
-          <KitVeb /> */}
         </div>
       </section>
     );

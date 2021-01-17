@@ -55,7 +55,7 @@
 }
 
 .card-body p{
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -91,12 +91,14 @@
 .icons{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
+  margin: 0 20px;
 }
 
 .icons img{
-  margin: 50px 15px 0;
+  transform: scale(0.8);
+  margin: 50px 10px 0;
 }
 
 @media (max-width: 1400px){
@@ -120,8 +122,5 @@
 @media(max-width:500px){
   .kits-bg{
     font-size: 8rem;
-  }
-  .card{
-    min-width: 19rem;
   }
 }

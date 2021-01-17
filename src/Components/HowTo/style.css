@@ -61,13 +61,12 @@ p.howto-p {
 
 @media(max-width:500px){
   .howto .row .col{
-    min-width: 80vw;
+    min-width: 80%;
   }
 }
 
 @media (max-width: 767px) {
    .h-t{
-    min-width: 80vw!important;
     text-align: justify;
   }
 }

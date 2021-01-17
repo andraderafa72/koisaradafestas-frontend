@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 import icone from '../vasos-icon.png';
 
 export default class Vasos extends React.Component {

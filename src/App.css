@@ -5,10 +5,19 @@
   outline: 0;
 }
 
-html{
-  width: 100vw;
+html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: hidden!important;
+}
+
+body{
+  width: 100%;
+}
+
+@media(max-width:458.98px){
+  body{
+    overflow-x: hidden;
+  }
 }
 
 a{

@@ -54,7 +54,17 @@
 }
 
 @media(max-width:500px){
+  .how-we-work{
+    padding-top: 100px;
+  }
+  .hww p{
+    text-align: justify;
+  }
+  .how-we-work-title{
+    font-size: 2.09rem;
+  }
   .how-we-work-subtitle{
+    font-size: 1.1rem;
     margin-bottom: 50px;
   }
   .hww, .hww-img{
