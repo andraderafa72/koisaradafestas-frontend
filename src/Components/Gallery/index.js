@@ -43,7 +43,6 @@ export default class Footer extends React.Component {
               showFullscreenButton={false}
               showPlayButton={false}
               slideDuration={800}
-              autoPlay
             />
 
           </div>
@@ -54,7 +53,6 @@ export default class Footer extends React.Component {
               showFullscreenButton={false}
               showPlayButton={false}
               slideDuration={800}
-              // autoPlay
             />
 
           </div>
@@ -65,7 +63,6 @@ export default class Footer extends React.Component {
               showFullscreenButton={false}
               showPlayButton={false}
               slideDuration={800}
-              autoPlay
             />
           </div>
         </div>
