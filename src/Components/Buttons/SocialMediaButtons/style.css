@@ -1,0 +1,24 @@
+.social-media {
+  padding-left: 0;
+  width: 15vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media li {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #999;
+}
+
+@media(max-width:992px){
+  .social-media{
+    width: 30vw;
+  }
+}
+@media(max-width:500px){
+  .social-media{
+    width: 40vw;
+  }
+}

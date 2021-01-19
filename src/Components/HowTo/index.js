@@ -7,7 +7,7 @@ import './style.css';
 export default class HowTo extends React.Component {
   render() {
     return (
-      <section className="howto container" id="kits">
+      <section className="howto container" id="how-to">
         {/* <h2 className="kits-bg" data-aos="fade-left" data-aos-duration="500">KITS</h2> */}
         <h1 className="howto-title" data-aos="fade-left" data-aos-duration="300">Como agendar sua festa.</h1>
         <h5 className="howto-subtitle" data-aos="fade-left" data-aos-duration="300">Artes personalizadas feitas com papel. Veja alguns em nossa galeria.</h5>

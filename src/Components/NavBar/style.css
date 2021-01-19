@@ -25,14 +25,24 @@
   box-shadow: none;
 }
 
-@media(max-width:500px){
-  .navbar-toggler{
-    margin-right: 20px;
-  }
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 0.15em;
+}
+
+@media(max-width:992px) {
   .contato {
     margin-left: 0;
     width: 100%;
   }
+}
+
+@media(max-width:500px) {
+  .navbar-toggler {
+    margin-right: 20px;
+  }
+
 }
 
 /* Burguer by march08 - https://march08.github.io/animated-burgers */

@@ -14,8 +14,8 @@ export default class Hero extends React.Component {
             melhor experiênica com sua festa, do inicio ao fim.
           </p>
           <div className="buttons">
-            <PrimaryButton href="#">Fale Conosco!</PrimaryButton>
-            <SecondaryButton href="#">Veja Mais</SecondaryButton>
+            <PrimaryButton href="#how-to">Fale Conosco!</PrimaryButton>
+            <SecondaryButton href="#kits">Veja Mais</SecondaryButton>
           </div>
         </div>
 

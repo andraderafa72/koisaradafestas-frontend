@@ -9,7 +9,7 @@ export default class HelpArea extends React.Component {
         <div className="container h-a" data-aos="flip-down" data-aos-duration="800">
           <h3>Não é o que você procura?</h3>
           <p>Monte agora seu próprio Kit em poucos minutos</p>
-          <PrimaryButton>Converse conosco</PrimaryButton>
+          <PrimaryButton href="https://wa.me/5584996220051" target="_blank">Converse conosco</PrimaryButton>
         </div>
       </section>
     );

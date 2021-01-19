@@ -6,6 +6,8 @@ import IdealForYou from './Components/IdealForYou';
 import HelpArea from './Components/HelpArea';
 import HowTo from './Components/HowTo';
 import HowWeWork from './Components/HowWeWork';
+import ContactUs from './Components/ContactUs';
+import Footer from './Components/Footer';
 import './App.css';
 
 function App() {
@@ -13,7 +15,6 @@ function App() {
     <>
       <header>
         <NavBar />
-
       </header>
       <main>
         <Hero />
@@ -21,8 +22,12 @@ function App() {
         <IdealForYou />
         <HelpArea />
         <HowTo />
+        <ContactUs />
         <HowWeWork />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

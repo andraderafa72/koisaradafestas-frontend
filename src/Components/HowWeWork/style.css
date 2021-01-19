@@ -18,8 +18,8 @@
 
 .how-we-work-title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.4rem;
-  line-height: 150%;
+  font-size: 2.6rem;
+  line-height: 50%;
   text-align: center;
   letter-spacing: -0.015em;
   color: white;
@@ -31,6 +31,7 @@
 .hww:last-child{
   margin-bottom: 0;
 }
+
 
 .hww h1 {
   font-family: 'Montserrat', sans-serif;
@@ -51,6 +52,24 @@
   line-height: 167%;
   letter-spacing: -0.015em;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.custom-shape-divider-bottom-1610909121 {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1610909121 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1610909121 .shape-fill {
+  fill: #FFFFFF;
 }
 
 @media(max-width:500px){

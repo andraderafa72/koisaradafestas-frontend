@@ -10,14 +10,14 @@ html {
   overflow-x: hidden!important;
 }
 
-body{
-  width: 100%;
-}
-
 @media(max-width:458.98px){
   body{
     overflow-x: hidden;
   }
+}
+
+ul, nav{
+  list-style: none;
 }
 
 a{

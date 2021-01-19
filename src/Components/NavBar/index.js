@@ -31,13 +31,13 @@ export default class NavBar extends React.Component {
                 <a className="nav-link secondary" href="#kits">Kits</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link secondary" href="#">Preços</a>
+                <a className="nav-link secondary" href="#how-to">Como Agendar</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link secondary" href="#">Como trabalhamos</a>
+                <a className="nav-link secondary" href="#how-we-work">Como trabalhamos</a>
               </li>
               <li className="nav-item">
-                <PrimaryButton className="nav-link contato" href="#">Contato</PrimaryButton>
+                <PrimaryButton className="nav-link contato" href="#how-to">Contato</PrimaryButton>
               </li>
             </ul>
           </div>

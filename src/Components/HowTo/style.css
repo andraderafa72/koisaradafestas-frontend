@@ -19,7 +19,8 @@
   margin-bottom: 35px;
 }
 
-.howto h1 {
+.howto h1, .contact-us h1 {
+  font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.75rem;
@@ -41,7 +42,7 @@ h1.howto-h1 {
   letter-spacing: 0.1px;
   color: #373F41;
 }
-p.howto-p {
+p.howto-p , .contact-us p{
   font-style: normal;
   font-weight: normal;
   font-size: .75rem;
@@ -68,5 +69,6 @@ p.howto-p {
 @media (max-width: 767px) {
    .h-t{
     text-align: justify;
+    height: 250px;
   }
 }
