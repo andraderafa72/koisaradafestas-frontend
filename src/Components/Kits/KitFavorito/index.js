@@ -26,7 +26,7 @@ export default class KitFavorito extends React.Component {
               mesas decorativas ou cilindros com capas personalizadas.
             </p>
           </div>
-          <a href="#" className="discover">Descobrir</a>
+          <a href="#how-to" className="discover">Descobrir</a>
         </div>
       </div>
     );

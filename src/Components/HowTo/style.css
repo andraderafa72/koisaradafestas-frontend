@@ -42,15 +42,22 @@ h1.howto-h1 {
   letter-spacing: 0.1px;
   color: #373F41;
 }
+
 p.howto-p , .contact-us p{
   font-style: normal;
-  font-weight: normal;
   font-size: .75rem;
+  font-weight: normal;
   line-height: 143%;
   text-align: center;
   letter-spacing: 0.2px;
   color: #373F41;
   opacity: 0.8;
+}
+
+a.howto-p {
+  text-align: center;
+  font-size: .75rem;
+  letter-spacing: 0.03rem;
 }
 .h-t{
   display: flex;

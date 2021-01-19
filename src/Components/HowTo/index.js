@@ -15,12 +15,12 @@ export default class HowTo extends React.Component {
           <div className="col h-t" data-aos="fade-up" data-aos-duration="600">
             <img src={image} alt="" />
             <h1 className="howto-h1">Antes de tudo, conheça nosso acervo. </h1>
-            <p className="howto-p">
-              Escolha um kit de festa ou monte o seu
+            <a href="#gallery" className="howto-p">
+              Clique aqui e veja nossos artigos
               <br />
               {' '}
-              em nossa página.
-            </p>
+              para festas!
+            </a>
           </div>
           <div className="col h-t" data-aos="fade-up" data-aos-duration="600">
             <img src={heart} alt="" />
@@ -33,7 +33,15 @@ export default class HowTo extends React.Component {
           <div className="col h-t" data-aos="fade-up" data-aos-duration="600">
             <img src={message} alt="" />
             <h1 className="howto-h1">Entre em contato conosco.</h1>
-            <p className="howto-p">Mande uma mensagem para nós através do WhatsApp ou Instagram</p>
+            <p className="howto-p">
+              Mande uma mensagem para nós através do
+              {' '}
+              <a href="https://wa.me/5584996220051" target="_blank" rel="noreferrer">WhatsApp</a>
+              {' '}
+              ou
+              {' '}
+              <a href="#" target="_blank" rel="noreferrer">Instagram</a>
+            </p>
           </div>
         </div>
       </section>

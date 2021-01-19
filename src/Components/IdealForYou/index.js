@@ -23,7 +23,7 @@ export default class IdealForYou extends React.Component {
                 magni dolores eos qui ratione voluptatem sequi nesciunt.
                 Neque porro quisquam est.
               </p>
-              <SecondaryButton>Veja</SecondaryButton>
+              <SecondaryButton href="#kits">Veja</SecondaryButton>
             </div>
             <div className="col option" data-aos="fade-up" data-aos-duration="800">
               <h4>O mais pedido?</h4>
@@ -33,7 +33,7 @@ export default class IdealForYou extends React.Component {
                 magni dolores eos qui ratione voluptatem sequi nesciunt.
                 Neque porro quisquam est.
               </p>
-              <SecondaryButton>Veja</SecondaryButton>
+              <SecondaryButton href="#kits">Veja</SecondaryButton>
             </div>
             <div className="col option" data-aos="fade-up" data-aos-duration="1000">
               <h4>Festa em casa?</h4>
@@ -43,7 +43,7 @@ export default class IdealForYou extends React.Component {
                 magni dolores eos qui ratione voluptatem sequi nesciunt.
                 Neque porro quisquam est.
               </p>
-              <SecondaryButton>Veja</SecondaryButton>
+              <SecondaryButton href="#kits">Veja</SecondaryButton>
             </div>
           </div>
         </section>

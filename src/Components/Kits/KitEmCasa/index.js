@@ -24,7 +24,7 @@ export default class KitEmCasa extends React.Component {
               Também há a opção de escolher artigos individualmente. (Minimo de 6 itens).
             </p>
           </div>
-          <a href="#" className="discover">Descobrir</a>
+          <a href="#how-to" className="discover">Descobrir</a>
         </div>
       </div>
     );

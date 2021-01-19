@@ -32,7 +32,7 @@ const images = [
 export default class Footer extends React.Component {
   render() {
     return (
-      <section className="container gallery">
+      <section className="container gallery" id="gallery">
         <h3 className="gallery-bg">Fotos</h3>
         <h1 className="gallery-title">Nosso Acervo.</h1>
         <div className="row">

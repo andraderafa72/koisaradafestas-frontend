@@ -25,7 +25,7 @@ export default class KitCeB extends React.Component {
               mesas decorativas e cilindros com capas personalizadas.
             </p>
           </div>
-          <a href="#" className="discover">Descobrir</a>
+          <a href="#how-to" className="discover">Descobrir</a>
         </div>
       </div>
     );
