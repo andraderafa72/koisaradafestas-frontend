@@ -6,11 +6,7 @@
 
 .footer p {
   text-align: center;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.8rem;
-  line-height: 160%;
+  font: 0.8rem/160% 'Montserrat', sans-serif;
   text-align: center;
   letter-spacing: -0.015rem;
   color: rgba(0, 0, 0, 0.7);
@@ -31,11 +27,7 @@
 }
 
 .footer-nav nav li a {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 0.8em;
-  line-height: 160%;
+  font: bold 0.8rem/160% 'Montserrat', sans-serif;
   letter-spacing: -0.015em;
   color: #222;
 }

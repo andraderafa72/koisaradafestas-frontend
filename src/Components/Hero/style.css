@@ -1,14 +1,14 @@
 .hero {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  padding-top: 20vh;
+  width: 100%;
+  min-width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  padding-top: 12vh;
   background: linear-gradient(117.29deg, #FBA8A8 -8.95%, rgba(189, 212, 231, 0) 99.59%, #DB9EA2 99.59%), #BDD4E7;
   background-blend-mode: multiply, normal;
-
-
 }
 
 .hero-itens{
@@ -20,11 +20,7 @@
 
 .hero-itens h1 {
   max-width: 600px;
-  font-family: 'Mulish', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 127%;
+  font: bold 3rem/127% 'Mulish', sans-serif;
   text-align: center;
   letter-spacing: 0.2px;
   color: #F2F2F2;
@@ -32,11 +28,7 @@
 
 .hero-itens p {
   margin-top: 32px;
-  font-family: 'Mulish', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 122%;
+  font: 18px/122% 'Mulish', sans-serif;
   text-align: center;
   letter-spacing: 0.3px;
   color: #F2F2F2;
@@ -51,7 +43,11 @@
 }
 
 .img-hero {
-  height: 35vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  max-height: 35vh;
   width: 100%;
   background-image: url('./img/hero.png');
   background-size: 100%;
@@ -63,11 +59,19 @@
 }
 
 
-
 @media(max-width:1400px) {
   .buttons {
     margin: 35px 0 31px;
   }
+}
+
+@media(max-height:400px){
+    .img-hero{
+      min-height: 45vh;
+    }
+    .buttons{
+      margin-top: 10px;
+    }
 }
 
 @media(max-width:1176px) {

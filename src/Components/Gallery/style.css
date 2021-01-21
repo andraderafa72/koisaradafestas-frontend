@@ -13,11 +13,7 @@
 
 h1.gallery-title{
   padding: 0 0 0 12px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2rem;
-  line-height: 100%;
+  font: 400 2rem/100% 'Montserrat', sans-serif;
   text-align: left;
   letter-spacing: 0.2px;
   color: #000000;
@@ -25,9 +21,7 @@ h1.gallery-title{
  h2.gallery-subtitle{
   padding: 0 0 0 12px;
   margin: 50px 0 20px;
-  font-family: 'Pacifico', cursive;
-  font-size: 1.4rem;
-  line-height: 122%;
+  font: 1.4rem/122% 'Pacifico', cursive;
   text-align: left;
   letter-spacing: 0.3px;
   color: #333;

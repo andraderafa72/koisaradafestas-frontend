@@ -6,10 +6,8 @@
 }
 
 .how-we-work-subtitle {
-  font-family: 'Montserrat', sans-serif;
+  font: 1.2rem/139% 'Montserrat', serif;
   max-width: 800px;
-  font-size: 1.2rem;
-  line-height: 139%;
   text-align: center;
   letter-spacing: -0.015em;
   color: rgba(255, 255, 255, 0.8);
@@ -17,12 +15,11 @@
 }
 
 .how-we-work-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.6rem;
-  line-height: 50%;
+  font: 2.6rem/50% 'Montserrat', serif;
   text-align: center;
   letter-spacing: -0.015em;
   color: white;
+  margin-bottom: 20px;
 }
 .hww{
   margin-bottom: 20px;
@@ -34,9 +31,7 @@
 
 
 .hww h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  line-height: 150%;
+  font: 1.5rem/150% 'Montserrat', sans-serif;
   letter-spacing: -0.015em;
   color: #FFFFFF;
   margin: 20px 0;
@@ -45,11 +40,7 @@
 
 .hww p {
   margin: 40px 0;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.9;
-  line-height: 167%;
+  font: 0.9rem/167% 'Montserrat', sans-serif;
   letter-spacing: -0.015em;
   color: rgba(255, 255, 255, 0.8);
 }

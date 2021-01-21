@@ -1,5 +1,5 @@
 .kits{
-  margin-top: 110vh;
+  margin-top: 15vh;
   margin-bottom: 150px;
   background-color: #fff;
   font-family: 'Montserrat', sans-serif;
@@ -15,11 +15,7 @@
 
 .kits h1.kits-title{
   padding: 0 0 0 12px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2rem;
-  line-height: 100%;
+  font: 400 2rem/100% 'Montserrat', sans-serif;
   text-align: left;
   letter-spacing: 0.2px;
   color: #000000;
@@ -27,11 +23,7 @@
 .kits h5.kits-subtitle{
   padding: 0 0 0 12px;
   margin-bottom: 40px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 122%;
+  font: 1rem/122% 'Mulish', serif;
   text-align: left;
   letter-spacing: 0.3px;
   color: #737B7D;
@@ -55,11 +47,7 @@
 }
 
 .card-body p{
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 36px;
+  font: bold 16px/36px 'Montserrat', serif;
   text-align: center;
   letter-spacing: -0.015em;
   color: #737B7D;

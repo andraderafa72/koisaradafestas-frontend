@@ -12,7 +12,7 @@ html {
 
 @media(max-width:458.98px){
   body{
-    overflow-x: hidden;
+    overflow-x: hidden!important;
   }
 }
 

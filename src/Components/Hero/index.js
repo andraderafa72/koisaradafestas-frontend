@@ -17,10 +17,8 @@ export default class Hero extends React.Component {
             <PrimaryButton href="#how-to">Fale Conosco!</PrimaryButton>
             <SecondaryButton href="#kits">Veja Mais</SecondaryButton>
           </div>
+          <div className="img-hero" />
         </div>
-
-        <div className="img-hero" />
-
       </section>
     );
   }

@@ -34,11 +34,7 @@ h2.title-ify-bg{
 }
 
 h1.title-ify{
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 0%;
+  font: 48px/0% 'Montserrat', sans-serif;
   letter-spacing: -0.015em;
   margin-bottom: 5rem;
 }

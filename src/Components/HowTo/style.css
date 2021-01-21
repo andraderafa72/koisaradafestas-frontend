@@ -9,10 +9,7 @@
 }
 
 .howto h5 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.9rem;
-  line-height: 137%;
+  font: 0.9rem/137% 'Mulish', sans-serif;
   text-align: center;
   letter-spacing: 0.3px;
   color: #737B7D;
@@ -20,11 +17,7 @@
 }
 
 .howto h1, .contact-us h1 {
-  font-family: 'Mulish', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.75rem;
-  line-height: 125%;
+  font: bold 1.75rem/125% 'Mulish', sans-serif;
   text-align: center;
   letter-spacing: 0.1px;
 }
@@ -34,20 +27,14 @@
 }
 
 h1.howto-h1 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 133%;
+  font: bold 18px/133% 'Mulish', sans-serif;
   text-align: center;
   letter-spacing: 0.1px;
   color: #373F41;
 }
 
 p.howto-p , .contact-us p{
-  font-style: normal;
-  font-size: .75rem;
-  font-weight: normal;
-  line-height: 143%;
+  font: 0.75rem/143% 'Mulish', sans-serif;
   text-align: center;
   letter-spacing: 0.2px;
   color: #373F41;
