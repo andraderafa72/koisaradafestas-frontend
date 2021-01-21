@@ -2,11 +2,17 @@
 Site of an individual microentrepreneur prototyped and developed by me.
 
 # Description
-It is a non-profit project aiming to improve my skills in ReactJS.
+It is a non-profit project aiming to improve my skills in ReactJS. It was prototyped with Figma and developed with HTML, CSS and JavaScript
 
 # Visuals
-Working on it
-## Installation
+The hero background-image is with a fixed background-attachment, which cannot be seen in the screenshot.
+## Prototype
+https://www.figma.com/file/bI98pmH8RIdg8891YsRVH4/Koisarada-Festas?node-id=0%3A1
+## Desktop
+https://github.com/andraderafa72/koisaradafestas-frontend/blob/main/screenshots/Desktop_view.png
+## Mobile
+https://github.com/andraderafa72/koisaradafestas-frontend/blob/main/screenshots/Mobile_view.png
+# Installation
 
 Clone or download the repository
 Use the package manager [npm](https://nodejs.org/en/download/) to install the application.
@@ -14,7 +20,7 @@ Use the package manager [npm](https://nodejs.org/en/download/) to install the ap
 npm i
 ```
 
-## Usage
+# Usage
 To use the application in a local server:
 ```bash
 npm start
@@ -40,14 +46,14 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/andraderafa72/koisaradafestas-frontend/blob/main/LICENSE)
 
 
 # Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+Needs only the addition of the images from the gallery, website icon and simplifications in the CSS to complete the project
 
-# Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+## Project status
+Almost done.
 
 
 
